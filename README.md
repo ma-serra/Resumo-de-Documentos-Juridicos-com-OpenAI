@@ -4,6 +4,34 @@ Este projeto é uma aplicação web que utiliza inteligência artificial para ge
 
 - **Web Site**: [Link](https://resumo-de-documentos-juridicos-com-openai-mybtsvbmkibvnkh6suya.streamlit.app/)
 
+
+### **Objetivo**
+O objetivo principal deste projeto é desenvolver uma aplicação que:
+- Resuma documentos jurídicos de forma concisa, destacando as cláusulas mais relevantes, como prazos, valores monetários, obrigações, direitos e responsabilidades.
+- Permita que advogados, profissionais de compliance ou qualquer outro usuário com necessidade de interpretar documentos legais de forma rápida e eficiente, utilizem o sistema para acelerar sua análise.
+- Ofereça a possibilidade de identificar e destacar informações críticas, como **prazos** e **valores monetários**, que frequentemente exigem atenção especial em contratos e acordos.
+
+### **Funcionalidades Principais**
+Este protótipo implementa as seguintes funcionalidades:
+ **Entrada de Documento:**
+   - Suporte para documentos em formatos PDF, Word (.docx) ou texto simples (.txt).
+   - Opção para o usuário carregar um documento ou colar texto diretamente na interface.
+  
+ **Processamento de Texto:**
+   - Extração do texto do documento carregado.
+   - Geração de um resumo conciso usando a API da OpenAI (GPT-4), com foco em cláusulas importantes e prazos.
+   - Extração de informações específicas, como **prazos**, **valores monetários** e outras cláusulas críticas.
+  
+ **Exibição de Resultados:**
+   - Exibição do resumo gerado de forma clara e objetiva.
+   - Exibição de prazos e valores destacados, facilitando a análise e compreensão do conteúdo crítico.
+   - Opção para exportar o resumo em formato PDF, para que o usuário possa salvar ou compartilhar os resumos gerados.
+
+### **Justificativa**
+A necessidade de ferramentas que ajudem na **análise e resumo de textos jurídicos** é crescente, especialmente em um ambiente jurídico que lida com grandes volumes de documentos e que exige precisão. Resumir textos de maneira automatizada não só melhora a eficiência, mas também permite que o profissional se concentre nas questões mais importantes do documento, economizando tempo e esforço.
+
+Este projeto faz uso de **técnicas de Processamento de Linguagem Natural (NLP)** e **inteligência artificial** para analisar documentos complexos e gerar resumos relevantes de maneira rápida e eficaz.
+
 ## Funcionalidades
 
 - **Geração de resumos** de documentos jurídicos.
