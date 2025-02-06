@@ -5,15 +5,11 @@ import docx
 from openai import OpenAI
 from dotenv import load_dotenv
 
-# Verifica se está rodando no Streamlit Cloud ou localmente
-if "OPENAI_API_KEY" in st.secrets:
-    api_key = st.secrets["OPENAI_API_KEY"]  # No Streamlit Cloud
-else:
-    load_dotenv()
-    api_key = os.getenv("OPENAI_API_KEY")  # No ambiente local
+# Carrega variáveis de ambiente
+load_dotenv()
 
 # Configuração da API da OpenAI
-openai = OpenAI(api_key=api_key)
+openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 # Função para extrair texto de PDF
 def extract_text_from_pdf(file):
