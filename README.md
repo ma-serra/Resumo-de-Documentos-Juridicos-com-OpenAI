@@ -19,7 +19,7 @@ Este protótipo implementa as seguintes funcionalidades:
   
  **Processamento de Texto:**
    - Extração do texto do documento carregado.
-   - Geração de um resumo conciso usando a API da OpenAI (GPT-4), com foco em cláusulas importantes e prazos.
+   - Geração de um resumo conciso usando a API da OpenAI (GPT-4o-mini), com foco em cláusulas importantes e prazos.
    - Extração de informações específicas, como **prazos**, **valores monetários** e outras cláusulas críticas.
   
  **Exibição de Resultados:**
